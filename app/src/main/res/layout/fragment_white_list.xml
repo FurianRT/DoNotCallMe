@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout
+        android:id="@+id/layout_fab"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rfal_frame_color="@color/transparent_grey"
+        app:rfal_frame_alpha="0.5">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_white_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/fragment_white_list_item" />
+
+        <com.wangjie.rapidfloatingactionbutton.RapidFloatingActionButton
+            android:id="@+id/fab_white_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"
+            app:rfab_shadow_dx="0dp"
+            app:rfab_shadow_dy="5dp"
+            app:rfab_shadow_radius="7dp"
+            app:rfab_size="normal" />
+
+    </com.wangjie.rapidfloatingactionbutton.RapidFloatingActionLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3289CD</color>
+    <color name="colorPrimaryDark">#3289CD</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="rippleColor">#331250C2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#3289CD</color>
+    <color name="dark_blue">#1250C2</color>
+    <color name="black">#000000</color>
+    <color name="dark_red">#B40404</color>
+    <color name="red">#d84315</color>
+    <color name="grey">#E9E9E9</color>
+    <color name="dark_grey">#202020</color>
+
+    <color name="green">#20A21E</color>
+    <color name="orange">#FF8525</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#99FFFFFF</color>
+    <color name="transparent_grey">#B3313333</color>
+    <color name="transparent_black">#CC000000</color>
+</resources>

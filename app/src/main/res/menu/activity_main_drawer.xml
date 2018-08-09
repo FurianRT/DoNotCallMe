@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_switch_blocking"
+        android:title="Включить блокировку"
+        app:actionViewClass="android.widget.Switch" />
+
+    <item
+        android:id="@+id/nav_check_unknown_numbers"
+        android:title="Неизвестные номера"
+        app:actionViewClass="android.widget.CheckBox" />
+
+    <item
+        android:id="@+id/nav_check_hidden_numbers"
+        android:title="Скрытые номера"
+        app:actionViewClass="android.widget.CheckBox" />
+
+    <item
+        android:id="@+id/nav_check_all_calls"
+        android:title="Все вызовы"
+        app:actionViewClass="android.widget.CheckBox" />
+
+    <item
+        android:title="Разное">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_check_notifications"
+                android:title="Уведомления"
+                app:actionViewClass="android.widget.CheckBox" />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Расписание">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_check_monday"
+                android:title="Понедельник"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_tuesday"
+                android:title="Вторник"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_wednesday"
+                android:title="Среда"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_thursday"
+                android:title="Четверг"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_friday"
+                android:title="Пятница"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_saturday"
+                android:title="Суббота"
+                app:actionViewClass="android.widget.CheckBox" />
+
+            <item
+                android:id="@+id/nav_check_sunday"
+                android:title="Воскресенье"
+                app:actionViewClass="android.widget.CheckBox" />
+
+        </menu>
+    </item>
+
+</menu>

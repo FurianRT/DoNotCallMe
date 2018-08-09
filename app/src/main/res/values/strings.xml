@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DoNotCallMe</string>
+
+    <string-array name="string_array_tab_titles">
+        <item>Черный список</item>
+        <item>Белый список</item>
+        <item>Журнал</item>
+    </string-array>
+
+    <string name="fab_id_code_black_list">black_list</string>
+    <string name="fab_id_code_white_list">white_list</string>
+    <string name="fab_id_code_log_list">log</string>
+    <string name="intent_extra_list_type">LIST_TYPE</string>
+
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+    <string name="from_call_log">Из списка вызовов</string>
+    <string name="from_contact_list">Из списка контактов</string>
+    <string name="enter_number">Ввести номер</string>
+    <string name="begin_with">Начинается с</string>
+    <string name="contains">Содержит</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="blocked">Заблокированно:</string>
+    <string name="last">Последний:</string>
+    <string name="add">Добавить</string>
+
+</resources>
